@@ -6,7 +6,7 @@ class Solution:
                 return [map[target - value], index]
             map[value] = index
         return []
-    
+
 
 if __name__ == '__main__':
     s = Solution()
